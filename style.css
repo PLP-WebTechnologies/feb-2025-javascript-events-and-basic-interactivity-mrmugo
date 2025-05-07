@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hover-effect {
+    padding: 20px;
+    background-color: #e0f7fa;
+    margin-top: 10px;
+    border: 1px solid #b2ebf2;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.05);
+    background-color: #b2ebf2;
+}
+
+#keypressDisplay {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff9c4;
+    border: 1px solid #fdd835;
+    border-radius: 5px;
+}
+
+#secretElement {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #ffe0b2;
+    border: 1px solid #ffb74d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#imageGallery {
+    margin-bottom: 10px;
+}
+
+#imageGallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#tabContainer {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    flex: 1;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+
+.tab-button.active {
+    background-color: #81c784;
+    color: white;
+}
+
+.tab-content {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 5px;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#fadeElement {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    padding: 15px;
+    background-color: #bbdefb;
+    border: 1px solid #64b5f6;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 3px;
+    display: none; /* Hidden by default, shown by JavaScript */
+}
+
+#passwordStrength {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
